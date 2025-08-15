@@ -35,7 +35,7 @@ function App() {
 
   setTimeout(() => {
     console.log(`Starting conversation with ${persona.name}`);
-    navigate('/chaton', { state: { persona } }); // ✅ fixed syntax
+    navigate('/chaton', { state: { persona } }); // 
   }, 2000);
 };
 
