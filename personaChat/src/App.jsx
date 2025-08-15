@@ -14,7 +14,7 @@ function App() {
       company: "Chaicode",
       image: "https://avatars.githubusercontent.com/u/11613311?v=4",
       bio: "Coding Teacher & Youtuber",
-      interests: ["Teaching", "codeing"],
+      interests: ["Teaching", "coding"],
       location: "Jaiypur, India",
       status: "online"
     },
@@ -24,7 +24,7 @@ function App() {
       company: "Chaicode",
       image: "https://www.piyushgarg.dev/_next/image?url=%2Fimages%2Favatar.png&w=1080&q=75",
       bio: "content creator, educator, and entrepreneur known for his expertise in the tech industry",
-      interests: ["Teaching", "codeing"],
+      interests: ["Teaching", "coding"],
       location: "Chandigarh, India", 
       status: "online"
     }
