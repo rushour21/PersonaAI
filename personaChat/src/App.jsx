@@ -10,24 +10,22 @@ function App() {
   const personas = [
     {
       id: 1,
-      name: "Alex Rivera",
-      role: "Senior Product Designer",
-      company: "Spotify",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      bio: "I help companies build products that people actually want to use. Currently designing the future of music discovery at Spotify.",
-      interests: ["Product Strategy", "UX Research", "Music Tech"],
-      location: "San Francisco, CA",
+      name: "Hitesh Chaudhari",
+      company: "Chaicode",
+      image: "https://avatars.githubusercontent.com/u/11613311?v=4",
+      bio: "Coding Teacher & Youtuber",
+      interests: ["Teaching", "codeing"],
+      location: "Jaiypur, India",
       status: "online"
     },
     {
       id: 2,
-      name: "Maya Chen",
-      role: "Marketing Director", 
-      company: "Airbnb",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b77c?w=150&h=150&fit=crop&crop=face",
-      bio: "I craft stories that connect brands with their communities. Leading growth marketing initiatives for global expansion.",
-      interests: ["Brand Strategy", "Growth Marketing", "Travel"],
-      location: "New York, NY", 
+      name: "Piyush Garg",
+      company: "Chaicode",
+      image: "https://www.piyushgarg.dev/_next/image?url=%2Fimages%2Favatar.png&w=1080&q=75",
+      bio: "content creator, educator, and entrepreneur known for his expertise in the tech industry",
+      interests: ["Teaching", "codeing"],
+      location: "Chandigarh, India", 
       status: "online"
     }
   ];
