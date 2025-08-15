@@ -1,11 +1,12 @@
 import axios from "axios";
 import { useState, useRef, useEffect } from "react";
 import { Send, Phone, Video, MoreVertical, ArrowLeft, Paperclip, Smile, Search, Info } from "lucide-react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export default function ChatComponent() {
   const location = useLocation();
   const persona = location.state?.persona;
+  const navigate = useNavigate();
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState("");
   const [isTyping, setIsTyping] = useState(false);
@@ -78,7 +79,7 @@ export default function ChatComponent() {
       {/* Header */}
       <header className="bg-slate-800 border-b border-slate-700 px-6 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <button className="p-2 hover:bg-slate-700 rounded-lg transition-colors lg:hidden">
+          <button onClick={()=> navigate('/')} className="p-2 hover:bg-slate-700 rounded-lg transition-colors ">
             <ArrowLeft className="w-5 h-5" />
           </button>
           <div className="flex items-center space-x-3">
